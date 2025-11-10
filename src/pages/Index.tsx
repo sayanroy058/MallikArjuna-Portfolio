@@ -4,6 +4,10 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Education from "@/components/Education";
 import Awards from "@/components/Awards";
+import AwardsGallery from "@/components/AwardsGallery";
+import ChocolateWorks from "@/components/ChocolateWorks";
+import WeddingCakes from "@/components/WeddingCakes";
+import RoomAmenities from "@/components/RoomAmenities";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -13,8 +17,12 @@ const Index = () => {
       <About />
       <Experience />
       <Skills />
+      <ChocolateWorks />
+      <WeddingCakes />
+      <RoomAmenities />
       <Education />
       <Awards />
+      <AwardsGallery />
       <Contact />
     </main>
   );

@@ -16,7 +16,18 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto py-12 sm:py-16 md:py-20 text-center text-primary-foreground">
         <div className="animate-fade-in">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 tracking-tight px-2">
+          {/* Profile Photo */}
+          <div className="flex justify-center mb-6 sm:mb-8">
+            <div className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-[#FFD700] shadow-2xl ring-4 ring-[#FFD700]/30">
+              <img 
+                src="/profile-image.jpeg" 
+                alt="Mallikarjuna Esunathi"
+                className="w-full h-full object-cover object-top scale-110"
+              />
+            </div>
+          </div>
+          
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-3 sm:mb-4 tracking-tight px-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] bg-clip-text text-transparent">
             Mallikarjuna Esunathi
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-playfair mb-4 sm:mb-6 text-primary-foreground/90 px-2">
