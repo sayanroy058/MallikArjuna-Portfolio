@@ -7,7 +7,7 @@ const chocolateImages = [
   { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.53 PM.jpeg", alt: "Chocolate work 2" },
   { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.54 PM (1).jpeg", alt: "Chocolate work 3" },
   { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.14.54 PM.jpeg", alt: "Chocolate work 4" },
-  { src: "/Wedding cakes/WhatsApp Image 2025-11-10 at 1.15.30 PM.jpeg", alt: "Chocolate work 5" },
+  { src: "/Chocolate works/WhatsApp Image 2025-11-10 at 1.15.30 PM.jpeg", alt: "Chocolate work 5" },
 ];
 
 const ChocolateWorks = () => {
