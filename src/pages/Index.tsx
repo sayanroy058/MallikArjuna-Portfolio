@@ -8,6 +8,8 @@ import AwardsGallery from "@/components/AwardsGallery";
 import ChocolateWorks from "@/components/ChocolateWorks";
 import WeddingCakes from "@/components/WeddingCakes";
 import RoomAmenities from "@/components/RoomAmenities";
+import PlatedDesserts from "@/components/PlatedDesserts";
+import BarCocoa from "@/components/BarCocoa";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -20,6 +22,8 @@ const Index = () => {
       <ChocolateWorks />
       <WeddingCakes />
       <RoomAmenities />
+      <PlatedDesserts />
+      <BarCocoa />
       <Education />
       <Awards />
       <AwardsGallery />
