@@ -59,7 +59,7 @@ const About = () => {
               <div>
                 <h4 className="font-semibold text-foreground mb-2 text-sm sm:text-base">Personal Information</h4>
                 <div className="space-y-1 sm:space-y-2 text-muted-foreground text-sm sm:text-base">
-                  <p><span className="font-medium text-foreground">Date of Birth:</span> December 5, 2001</p>
+                  <p><span className="font-medium text-foreground">Date of Birth:</span> May 12, 2001</p>
                   <p><span className="font-medium text-foreground">Father's Name:</span> Esunathi Sathaiah</p>
                 </div>
               </div>
